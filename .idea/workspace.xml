@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872077e3-cb9d-41a4-97f5-00e157a0617c" name="Changes" comment="testing feature branch">
+    <list default="true" id="872077e3-cb9d-41a4-97f5-00e157a0617c" name="Changes" comment="Added menu title and options">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760601479468</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added menu title and options">
+      <option name="closed" value="true" />
+      <created>1760609093396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760609093396</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,6 +124,7 @@
     <MESSAGE value="Added assets: music, background images" />
     <MESSAGE value="Added package containing classes, implemented window oppening and handle events to its closure" />
     <MESSAGE value="testing feature branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing feature branch" />
+    <MESSAGE value="Added menu title and options" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added menu title and options" />
   </component>
 </project>
