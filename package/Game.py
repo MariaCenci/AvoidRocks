@@ -1,6 +1,7 @@
 import pygame
-from package.Constants import WINDOW_WIDTH, WINDOW_HEIGHT
+from package.Constants import WINDOW_WIDTH, WINDOW_HEIGHT, MENU_OPTIONS
 from package.Menu import Menu
+from package.Level import Level
 
 
 class Game:
@@ -11,10 +12,16 @@ class Game:
     def run(self):
         while True:
             menu = Menu(self.window)
-            print('called menu run')
-            menu.run()
+            menu_return = menu.run()
+            if menu_return == MENU_OPTIONS[0]:
+                level = Level(self.window)
+                level_return = level.run()
+            else:
+                pygame.quit()
+                quit()
 
-    print('testing feature branch')
+
+
 
 
 

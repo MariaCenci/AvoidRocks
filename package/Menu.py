@@ -46,11 +46,6 @@ class Menu:
                     if event.key == pygame.K_RETURN:
                         return MENU_OPTIONS[option_menu]
 
-
-
-
-
-
     def menu_text(self, text_size: int, text: str, text_color, text_center_position: tuple, text_font: str):
         text_font: Font = pygame.font.SysFont(name=text_font, size=text_size)
         text_surf: Surface = text_font.render(text, True, text_color).convert_alpha()
