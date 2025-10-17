@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872077e3-cb9d-41a4-97f5-00e157a0617c" name="Changes" comment="Added new class Entity" />
+    <list default="true" id="872077e3-cb9d-41a4-97f5-00e157a0617c" name="Changes" comment="chore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bg4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bgMenu.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bgMenu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/slimeFire.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slimeFire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/slimeGreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slimeGreen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Menu.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,17 +59,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Game.executor": "Run",
-    "Python.Menu.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "featureLevel",
-    "last_opened_file_path": "/Users/mariacenci/Documents/ProjectsUninter/AvoidRocks"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;featureLevel&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mariacenci/Documents/ProjectsUninter/AvoidRocks&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -137,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760693494037</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="chore">
+      <option name="closed" value="true" />
+      <created>1760725274165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760725274165</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +175,7 @@
     <MESSAGE value="Implemented quit game menu option" />
     <MESSAGE value="Added new class Level" />
     <MESSAGE value="Added new class Entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new class Entity" />
+    <MESSAGE value="chore" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore" />
   </component>
 </project>
