@@ -8,7 +8,7 @@ from package.Constants import WINDOW_WIDTH, COLOR_ORANGE, COLOR_WHITE, MENU_OPTI
 class Menu:
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./assets/backgrounds/bgMenu.png').convert_alpha()
+        self.surf = pygame.image.load('./assets/bgMenu.png').convert_alpha()
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self):
@@ -17,8 +17,8 @@ class Menu:
         pygame.mixer_music.play(-1) # in loop
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(60, 'Water', (255, 178, 102),(390, 145), 'Impact')
-            self.menu_text(60, 'Shoot', (255, 178, 102), (538, 145), 'Impact')
+            self.menu_text(60, 'Avoid', (255, 178, 102),(370, 145), 'Impact')
+            self.menu_text(60, 'Rocks', (255, 178, 102), (525, 145), 'Impact')
 
             for i in range(len(MENU_OPTIONS)):
                 if i == option_menu:
@@ -30,7 +30,6 @@ class Menu:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit() # close window
-                    print('quit')
                     quit() # end init pygame
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_DOWN:

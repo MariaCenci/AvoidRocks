@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872077e3-cb9d-41a4-97f5-00e157a0617c" name="Changes" comment="chore">
+    <list default="true" id="872077e3-cb9d-41a4-97f5-00e157a0617c" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bg4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/backgrounds/bgMenu.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bgMenu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/slimeFire.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slimeFire.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/slimeGreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slimeGreen.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Level.py" afterDir="false" />
@@ -163,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760725274165</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1760735080651</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760735080651</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,6 +177,7 @@
     <MESSAGE value="Added new class Level" />
     <MESSAGE value="Added new class Entity" />
     <MESSAGE value="chore" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>
