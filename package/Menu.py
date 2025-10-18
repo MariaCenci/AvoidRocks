@@ -13,12 +13,12 @@ class Menu:
 
     def run(self):
         option_menu = 0
-        pygame.mixer_music.load('./assets/music.mp3')
-        pygame.mixer_music.play(-1) # in loop
+        pygame.mixer_music.load('./assets/musicMenu.mp3')
+        pygame.mixer_music.play(-1)  # in loop
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(60, 'Avoid', (255, 178, 102),(370, 145), 'Impact')
-            self.menu_text(60, 'Rocks', (255, 178, 102), (525, 145), 'Impact')
+            self.menu_text(60, 'Avoid', (255, 178, 102), (370, 145), 'Impact')
+            self.menu_text(60, 'Rocks', (255, 178, 102), (515, 145), 'Impact')
 
             for i in range(len(MENU_OPTIONS)):
                 if i == option_menu:
@@ -29,8 +29,8 @@ class Menu:
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
-                    pygame.quit() # close window
-                    quit() # end init pygame
+                    pygame.quit()  # close window
+                    quit()  # end init pygame
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_DOWN:
                         if option_menu < len(MENU_OPTIONS) - 1:
@@ -50,49 +50,3 @@ class Menu:
         text_surf: Surface = text_font.render(text, True, text_color).convert_alpha()
         text_rect: Rect = text_surf.get_rect(center=text_center_position)
         self.window.blit(source=text_surf, dest=text_rect)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
