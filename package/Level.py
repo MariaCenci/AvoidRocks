@@ -43,7 +43,6 @@ class Level:
                     enemy.rect.top = 0
                     enemy.rect.x = random.randint(0, WINDOW_WIDTH - enemy.rect.width)
                     self.score += 1
-                    print(self.score)
 
             score_surf = self.text_font.render(f'YOUR SCORE:  {self.score}', True, (255, 255, 255))
             self.window.blit(score_surf, (10, 10))

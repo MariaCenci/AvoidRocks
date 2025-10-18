@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="872077e3-cb9d-41a4-97f5-00e157a0617c" name="Changes" comment="refactor">
-      <change beforePath="$PROJECT_DIR$/package/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="featureLevel" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -53,17 +51,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Menu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;featureLevel&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mariacenci/Documents/ProjectsUninter/AvoidRocks&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Game.executor": "Run",
+    "Python.Menu.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mariacenci/Documents/ProjectsUninter/AvoidRocks"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
@@ -181,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760779581397</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1760780740985</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760780740985</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
