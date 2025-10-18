@@ -8,7 +8,7 @@ from package.Entity import Entity
 class Enemy(Entity):
     def __init__(self, position: tuple):
         super().__init__('slimeFire', position)
-        self.speed = 4
+        self.speed = 7
 
     def move(self):
         self.rect.y += self.speed
