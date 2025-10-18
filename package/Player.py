@@ -14,4 +14,3 @@ class Player(Entity):
             self.rect.x -= self.speed
         if keys[pygame.K_RIGHT]:
             self.rect.x += self.speed
-

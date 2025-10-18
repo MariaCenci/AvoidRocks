@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872077e3-cb9d-41a4-97f5-00e157a0617c" name="Changes" comment="feature: added Level, Enemy and Player classes (Entity(ABC) inheritance) with its implementation in class Game.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bg2Menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/musicMenu.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/slimeGreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slimeGreen.png" afterDir="false" />
+    <list default="true" id="872077e3-cb9d-41a4-97f5-00e157a0617c" name="Changes" comment="refactor">
+      <change beforePath="$PROJECT_DIR$/package/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Enemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760735444913</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1760779581397</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760779581397</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,8 +194,8 @@
     <MESSAGE value="Added new class Level" />
     <MESSAGE value="Added new class Entity" />
     <MESSAGE value="chore" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="feature: added Level, Enemy and Player classes (Entity(ABC) inheritance) with its implementation in class Game." />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: added Level, Enemy and Player classes (Entity(ABC) inheritance) with its implementation in class Game." />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>
