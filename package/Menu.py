@@ -12,6 +12,8 @@ class Menu:
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self):
+        if not pygame.mixer.get_init():
+            pygame.mixer.init()
         option_menu = 0
         pygame.mixer_music.load('./assets/musicMenu.mp3')
         pygame.mixer_music.play(-1)  # in loop

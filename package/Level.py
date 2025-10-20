@@ -21,6 +21,8 @@ class Level:
         self.text_font = pygame.font.SysFont('Impact', 25)
 
     def run(self):
+        if not pygame.mixer.get_init():
+            pygame.mixer.init()
         pygame.mixer_music.load('./assets/musicLevel.mp3')
         pygame.mixer_music.play(-1)  # in loop
         clock = pygame.time.Clock()
